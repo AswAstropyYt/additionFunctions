@@ -6,14 +6,18 @@ from asyncore import  loop
 class functions:
     def mix(var1, var2):
 
-        return var1 + var2 + var.rl
+
+
+        return  f' random var is {var.rl}, and the mixed value is:\n {var1 + var2 + var.rl}'
+
+
     def combine(strvl1, strvl2):
 
         return str(strvl1+strvl2)
     def wait(sec):
         time.sleep(sec)
         print(f'{sec} seconds Python waited')
-    def divide_the_text(text):
+
 
         return print(f'{text}'.split())
     def enter_to_winpage(enter, wintk):
@@ -30,21 +34,21 @@ class functions:
 
 
 
-
 class var:
     rl = random.randint(1, 6)
     a = 12
     b = 7
     n = 'Never gone give you Up! \n'
     l = 'Never gone let you Up!'
-class subjects:
-    print(f"mixed numbers result is: \n{functions.mix(var1=var.a,var2=var.b)} , random mixer number is {var.rl}")
-    print(f"combined text result is: \n{functions.combine(strvl1=var.n,strvl2=var.l)}")
-    functions.divide_the_text(text=f'Bro Guy lol')
-    wintkv = tkinter.Tk()
-    functions.enter_to_winpage(enter=None, wintk=wintkv)
-
-class Useingfunctions:
-    functions.wait(sec=2)
+def class_sub():
+    class subjects:
+        print(f"mixed numbers result is: \n{functions.mix(var1=var.a,var2=var.b)} , random mixer number is {var.rl}")
+        print(f"combined text result is: \n{functions.combine(strvl1=var.n,strvl2=var.l)}")
+        functions.divide_the_text(text=f'Bro Guy lol')
+        wintkv = tkinter.Tk()
+        functions.enter_to_winpage(enter=None, wintk=wintkv)
+def usingfunc():
+    class Useingfunctions:
+        functions.wait(sec=2)
 
 
